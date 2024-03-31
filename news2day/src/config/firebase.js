@@ -4,9 +4,9 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage"
 import { getFirestore } from "firebase/firestore";
 
-
+// ENTER YOUR FIREBASE DETAILS 
 const firebaseConfig = {
-  apiKey: "AIzaSyCDrYgxlb3xy7h_ZAvFSprM7wE2efXTqCY",
+  apiKey: "YOUR API KEY",
   authDomain: "news-app-9b97a.firebaseapp.com",
   projectId: "news-app-9b97a",
   storageBucket: "news-app-9b97a.appspot.com",
