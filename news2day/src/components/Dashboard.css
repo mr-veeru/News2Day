@@ -1,0 +1,56 @@
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.category-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+    height: auto;
+    margin: 8px;
+    padding: 18px;
+    background-color: #007bff; 
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 12.6px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.category-link svg {
+    font-size: 24px; 
+}
+
+.category-link:hover {
+    transform: scale(1.05);
+}
+.category-link span {
+    margin-top: 5px;
+}
+
+
+
+.ResponsiveContainer {
+    padding-top: 30px;
+}
+
+.performance-reports {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.performance-chart {
+    margin-bottom: 40px;
+}
+
+.performance-chart h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}

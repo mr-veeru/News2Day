@@ -1,0 +1,111 @@
+.heading {
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.cardContainer {
+  display: grid;
+  gap: 20px;
+}
+
+h3, label{
+  color: #007bff;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 2px solid #007bff;
+} 
+ 
+.image {
+  width: 100%; 
+  height: auto;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.actionButtons {
+  margin-top: 10px;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.actionButton span {
+  display: block;
+  margin-top: 5px; 
+}
+
+.saveButton,
+.cancelButton {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  margin-left: 10px;
+}
+
+.saveButton:hover,
+.cancelButton:hover {
+  opacity: 0.8;
+}
+
+.editMode {
+  cursor: pointer;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+.spacing{
+  padding-bottom: 70px;
+}
+
+.cardContent {
+  padding: 20px;
+  text-align: justify;
+}
+
+.successMessage {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
